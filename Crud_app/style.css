@@ -1,0 +1,59 @@
+#main_header{
+
+  padding: 22px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.box1 h2{
+  float: left;
+
+}
+.box {
+  width: 50%;
+  height: 1px;
+  margin: 0 auto; /* This will center the box horizontally */
+  text-align: center; /* This will center the content inside the box horizontally */
+}
+
+.box1 button{
+  float: right;
+  margin-left: 12px;
+}
+.container{
+  margin-top: 50px;
+}
+h6{
+  text-align: center;
+  color: red;
+}
+.formstable{
+  display: flex;
+  gap: 1rem;
+}
+.container {
+  margin-top: 50px;
+  width: 80%; /* Set a width for the container */
+}
+
+.modal-body {
+  text-align: left; /* Align the form elements to the left */
+}
+
+.form-group {
+  margin-bottom: 10px; /* Add some space between form groups */
+}
+
+.modal-footer {
+  text-align: center; /* Center the footer content */
+}
+.pagination {
+  position: absolute;
+  bottom: 7rem; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pagination a {
+  margin: 0 5px; /* Add spacing between buttons */
+}
